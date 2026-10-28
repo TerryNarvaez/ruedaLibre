@@ -86,9 +86,7 @@ nav a:focus-visible {
     outline-offset: 4px;
 }
 
-/* =========================================
-   4. CONTENIDO PRINCIPAL
-========================================= */
+
 
 main {
     width: min(1100px, 92%);
@@ -116,9 +114,6 @@ p {
     margin-bottom: 15px;
 }
 
-/* =========================================
-   5. SECCIONES
-========================================= */
 
 section {
     background-color: var(--color-blanco);
@@ -134,9 +129,7 @@ section > h2 {
     margin-bottom: 20px;
 }
 
-/* =========================================
-   6. ARTÍCULOS Y SERVICIOS
-========================================= */
+
 
 article {
     background-color: #f8fafc;
@@ -160,9 +153,7 @@ article h3 {
     margin-bottom: 10px;
 }
 
-/* =========================================
-   7. IMÁGENES
-========================================= */
+
 
 img {
     max-width: 100%;
@@ -182,9 +173,7 @@ figcaption {
     margin-top: 8px;
 }
 
-/* =========================================
-   8. TABLAS DE TARIFAS
-========================================= */
+
 
 table {
     width: 100%;
@@ -220,9 +209,7 @@ th {
     font-weight: bold;
 }
 
-/* =========================================
-   9. CONTENIDO COMPLEMENTARIO
-========================================= */
+
 
 aside {
     background-color: #fff7ed;
@@ -249,9 +236,7 @@ li {
     margin-bottom: 8px;
 }
 
-/* =========================================
-   10. FORMULARIOS DE RESERVAS
-========================================= */
+
 
 form {
     background-color: var(--color-blanco);
@@ -311,9 +296,7 @@ input[type="submit"]:hover {
     transform: translateY(-2px);
 }
 
-/* =========================================
-   11. ENLACES DEL CONTENIDO
-========================================= */
+
 
 main a {
     color: var(--color-secundario);
@@ -324,9 +307,7 @@ main a:hover {
     color: var(--color-principal);
 }
 
-/* =========================================
-   12. PIE DE PÁGINA
-========================================= */
+
 
 footer {
     background-color: #142f3c;
@@ -349,163 +330,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* ===================<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rueda Libre</title>
-</head>
-<body>
 
-
-    
-    <h1>
-        Rueda Libre | Alquiler de bicicletas en Medellín
-    </h1>
-    
-    
-    <main>
-        
-        <section id="quienes_somos">
-            
-            <h2>¿  Quienes Somos ?</h2>
-            
-            <p>
-                En Rueda Libre ofrecemos alquiler de bicicletas para que
-                disfrutes de la ciudad y la naturaleza. Conoce nuestras
-                opciones y visítanos para
-                comenzar tu próxima aventura
-            </p>
-            
-            <img src="img/bicicleta2.jpeg" 
-            alt="bike1"
-            width="800">
-            
-            
-        </section>
-        
-        
-        <section id="servicios">
-            
-            <h2>Nuestros servicios</h2>
-            
-            <article>
-                <h1>Informacion a tener en cuenta</h1>
-                
-                <p>
-                    
-                </p>
-                
-                <p>
-                    Recorre la ciudad de manera cómoda y sostenible.
-                    El alquiler <strong>incluye casco y candado</strong>
-                    para que puedas disfrutar de tu recorrido con mayor
-                    tranquilidad. Es una opción <em>ideal para paseos cortos</em>.
-                </p>
-                
-            </article>
-            
-            
-            
-            <article>
-                <h3>Alquiler de bicicletas de montaña</h3>
-                
-                <p>
-                    Explora senderos y caminos naturales con bicicletas
-                    diseñadas para terrenos irregulares. Consulta la
-                    disponibilidad y las condiciones del alquiler.
-                    Es una alternativa <strong>perfecta para los amantes
-                        de la aventura</strong>.
-                    </p>
-                </article>
-                
-                <article>
-                    <h3>Rutas guiadas</h3>
-                    <a href="/paginas/tarifas.html">nuestras tarifas</a>
-                     <a href="/paginas/reservas.html">Reservas</a>
-        <p>
-            Descubre nuevos lugares acompañado por personas que
-            conocen los recorridos. Podrás disfrutar de paisajes
-            naturales y conocer sitios interesantes de la zona.
-            Una experiencia <em>para compartir y recordar</em>.
-        </p>
-
-        <img
-            src="img/images.jpeg"
-            alt="Ruta rodeada de vegetación para recorrer en bicicleta"
-            width="700"
-        >
-    </article>
-
-  
-        </section>
-
-        <section id="como-alquilar">
-    <h2>¿Cómo alquilar?</h2>
-
-    <ol>
-        <li>Selecciona el tipo de bicicleta que deseas alquilar.</li>
-
-        <li>Consulta la disponibilidad y el precio del servicio.</li>
-
-        <li>Contacta con nosotros para confirmar tu reserva.</li>
-
-        <li>Recoge tu bicicleta y disfruta del recorrido.</li>
-    </ol>
-
-    <h3>Beneficios de nuestro servicio</h3>
-
-    <ul>
-        <li>Bicicletas para diferentes tipos de recorridos.</li>
-        <li>Accesorios de seguridad incluidos según el servicio.</li>
-        <li>Una alternativa práctica para disfrutar al aire libre.</li>
-    </ul>
-</section>
-
-<section id="encuentranos">
-    <h2>Encuéntranos</h2>
-
-    <a
-    href="https://www.google.com/maps"
-    target="_blank"
->
-    Consulta nuestra ubicación en el mapa
-</a>
-
-
-    <p>
-        Ven a conocernos y descubre nuestras bicicletas.
-        Estaremos encantados de ayudarte a elegir tu próximo recorrido.
-    </p>
-
-    <p>
-        <a
-            href="https://www.google.com/maps"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Consulta nuestra ubicación en el mapa
-        </a>
-    </p>
-
-    <p>
-        Escríbenos:
-        <a href="mailto:hola@ruedalibre.example">
-            hola@ruedalibre.example
-        </a>
-    </p>
-</section>
-
-    
-    </main>
-
-</body>
-</html>
-
-======================
-   13. DISEÑO RESPONSIVE
-========================================= */
 
 @media (max-width: 768px) {
     header {
@@ -549,9 +374,6 @@ footer a:hover {
     }
 }
 
-/* =========================================
-   14. ACCESIBILIDAD
-========================================= */
 
 @media (prefers-reduced-motion: reduce) {
     *,
