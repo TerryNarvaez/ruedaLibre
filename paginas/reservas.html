@@ -7,7 +7,98 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <a href="reservas@gmail.com">reservas@gmail.com</a>
-    <a href="/index.html">inicio</a>
+
+
+<section id="formulario-reserva">
+  <h2>Formulario de reserva</h2>
+
+  <a href="/index.html">inicio</a>
+
+
+
+  <form action="/reservas" method="post">
+
+    <fieldset>
+      <legend>Tus datos</legend>
+
+      <p>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </p>
+
+      <p>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+      </p>
+
+      <p>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tu alquiler</legend>
+
+      <fieldset>
+        <legend>Tipo de bicicleta</legend>
+
+        <input type="radio" id="tipo-montana" name="tipo_bicicleta" value="montana" required>
+        <label for="tipo-montana">Montaña</label>
+
+        <input type="radio" id="tipo-ruta" name="tipo_bicicleta" value="ruta">
+        <label for="tipo-ruta">Ruta</label>
+
+        <input type="radio" id="tipo-urbana" name="tipo_bicicleta" value="urbana">
+        <label for="tipo-urbana">Urbana</label>
+
+        <input type="radio" id="tipo-electrica" name="tipo_bicicleta" value="electrica">
+        <label for="tipo-electrica">Eléctrica</label>
+      </fieldset>
+
+      <p>
+        <label for="talla">Talla</label>
+        <select id="talla" name="talla" required>
+          <option value="">Selecciona una talla</option>
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+          <option value="xl">XL</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="fecha-inicio">Fecha de inicio</label>
+        <input type="date" id="fecha-inicio" name="fecha_inicio" required>
+      </p>
+
+      <p>
+        <label for="dias">Número de días</label>
+        <input type="number" id="dias" name="dias" min="1" max="30" value="1" required>
+      </p>
+
+      <p>
+        <label for="comentarios">Comentarios adicionales</label>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea>
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Confirmación</legend>
+
+      <p>
+        <input type="checkbox" id="terminos" name="acepta_terminos" value="si" required>
+        <label for="terminos">Acepto los términos y condiciones del alquiler</label>
+      </p>
+
+      <p>
+        <input type="checkbox" id="novedades" name="recibir_novedades" value="si">
+        <label for="novedades">Quiero recibir ofertas y novedades por correo</label>
+      </p>
+    </fieldset>
+
+    <button type="submit">Enviar reserva</button>
+  </form>
+</section>
 </body>
 </html>
